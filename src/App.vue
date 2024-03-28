@@ -1,13 +1,21 @@
 <template>
-<div>
-  <AppHeader />
+<div class="">
   <AppHero />
-  <TypedSection />
+  <TouristAttractions />
+  <InfoDump />
+  <HistorySection />
+  <CultureSection />
+  <EconomySection />
+  <AppFooter />
 </div>
 </template>
 
 <script setup>
-import AppHeader from './components/App-Header.vue'
 import AppHero from './components/App-Hero.vue'
-import TypedSection from './components/Typed-Section.vue'
+import TouristAttractions from './components/Tourist-Attractions.vue'
+import InfoDump from './components/Info-Dump.vue'
+import AppFooter from './components/App-Footer.vue'
+import HistorySection from './components/History-Section.vue'
+import CultureSection from './components/Culture-Section.vue'
+import EconomySection from './components/Economy-Section.vue'
 </script>
